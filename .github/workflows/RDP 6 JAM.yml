@@ -12,9 +12,9 @@ jobs:
     - name: Downloading NGROK Njing.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/vpssssbeduool/Iwassdieefreerdp/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/vpssssbeduool/Iwassdieefreerdp/main/wallpaper.png -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/vpssssbeduool/Iwassdieefreerdp/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/LeviathanH/rdpk/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/LeviathanH/rdpk/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/LeviathanH/rdpk/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To NGROK Njing...
